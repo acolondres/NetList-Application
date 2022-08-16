@@ -156,10 +156,13 @@
                           bg-red-100
                           rounded-full
                           cursor: pointer;
+                          mb-2
                         "
+                      
                       >
                       
-                        <p class="text-xs leading-3 text-red-700 cursor-pointer">
+                        <p class="text-xs leading-3 text-red-700 cursor-pointer px-7"
+                        @click.self="deleteList(list.listId)">
                           
                             Delete
                         </p>

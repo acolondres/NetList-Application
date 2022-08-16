@@ -19,8 +19,10 @@
                 border border-gray-800
                 px-2
                 py-2
+                bg-green-600
+                text-white
               "
-              :class="{ 'text-gray-600': markAll, 'text-green-800': !markAll }"
+              :class="{ 'text-white': markAll, 'text-white': !markAll }"
               @click.prevent="markAllDone()"
             >
               {{ markAll ? "Mark All Undone" : "Mark All Done" }}
