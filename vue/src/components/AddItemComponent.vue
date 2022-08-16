@@ -38,6 +38,7 @@
           "
           v-model="item.itemName"
           required
+          maxlength="35"
           autofocus
           placeholder="Item Name"
         />
@@ -122,6 +123,7 @@
           v-model="item.itemNote"
           placeholder="Item Note"
           required
+          maxlength="20"
           autofocus
           type="text"
         />

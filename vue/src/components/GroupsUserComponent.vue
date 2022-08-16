@@ -14,11 +14,11 @@
               >
                 <td class="p-4">
                   <div class="flex items-center">
-                    <div class="bg-gray-100 rounded-sm p-2.5">
+                    <div class=" rounded-sm p-1.5">
                       <img
-                        width="28px"
-                        height="28px"
-                        src="https://img.icons8.com/clouds/344/checklist.png"
+                        width="36px"
+                        height="36px"
+                        src="https://img.icons8.com/clouds/452/group.png"
                       />
                     </div>
                     <div class="pl-3">
