@@ -44,6 +44,12 @@
                 </td>
                 <td class="pl-16">
                   <div v-if="group.ownerId === $store.state.user.id">
+                    <router-link
+                          :to="{
+                            name: 'edit-group',
+                            params: { groupId: group.groupId },
+                          }"
+                          >
                     <div
                       class="
                         flex
@@ -64,15 +70,11 @@
                           text-right text-green-800
                         "
                       >
-                        <router-link
-                          :to="{
-                            name: 'edit-group',
-                            params: { groupId: group.groupId },
-                          }"
-                          >Edit</router-link
-                        >
+                        Edit
                       </p>
                     </div>
+                    </router-link
+                        >
                     <div
                       class="
                         flex
@@ -83,11 +85,13 @@
                         mt-2
                         bg-red-100
                         rounded-full
+                        cursor-pointer
                       "
+                      @click.self="deleteGroup(group.groupId)"
                     >
                       <p
                         class="text-xs leading-3 text-red-700 cursor-pointer"
-                        @click.self="deleteGroup(group.groupId)"
+                        
                       >
                         Delete
                       </p>
@@ -104,7 +108,8 @@
                         mt-2
                         bg-red-100
                         rounded-full
-                      "
+                        cursor-pointer"
+                        @click.self="deleteGroup(group.groupId)"
                     >
                       <p
                         class="text-xs leading-3 text-red-700 cursor-pointer"

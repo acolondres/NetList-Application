@@ -14,7 +14,7 @@
           ml-auto
           mr-auto
         "
-        >Select a Group:</label
+        >Select a Group to Display Its Lists:</label
       >
       <select
         name="group"
@@ -113,6 +113,11 @@
                   </td>
                   <td class="pl-16">
                     <div>
+                      <router-link
+                            :to="{
+                              name: 'edit-list',
+                              params: { listId: list.listId },
+                            }">
                       <div
                         class="
                           flex
@@ -133,15 +138,13 @@
                             text-right text-green-800
                           "
                         >
-                          <router-link
-                            :to="{
-                              name: 'edit-list',
-                              params: { listId: list.listId },
-                            }"
-                            >Edit</router-link
-                          >
+                          
+                            Edit
                         </p>
                       </div>
+                      </router-link
+                          >
+                      <button>
                       <div
                         class="
                           flex
@@ -152,14 +155,16 @@
                           mt-2
                           bg-red-100
                           rounded-full
+                          cursor: pointer;
                         "
                       >
-                        <p class="text-xs leading-3 text-red-700">
-                          <button @click.prevent="deleteList(list.listId)">
+                      
+                        <p class="text-xs leading-3 text-red-700 cursor-pointer">
+                          
                             Delete
-                          </button>
                         </p>
                       </div>
+                      </button>
                     </div>
                   </td>
                 </tr>
