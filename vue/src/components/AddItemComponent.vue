@@ -232,11 +232,15 @@ export default {
   },
   methods: {
     createItem() {
-      itemService.createItem(this.item).then(() => {
-        this.$router.go(this.$router.currentRoute, {
-          params: { listId: this.item.listId },
+      if (this.item.quantity >= 0) {
+        itemService.createItem(this.item).then(() => {
+          this.$router.go(this.$router.currentRoute, {
+            params: { listId: this.item.listId },
+          });
         });
-      });
+      } else {
+        alert("Quantity must be greater than 0");
+      }
     },
     assignCategoryId() {
       this.item.categoryId = this.selectedCategoryId;
