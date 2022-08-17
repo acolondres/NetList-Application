@@ -202,9 +202,32 @@
           py-3
         "
       >
+      
         <groups-component></groups-component>
       </div>
+      
       <div class="list-groups">
+        <div v-if="groups.length === 0" 
+        class="border rounded-lg 
+        border pb-6 border-gray-200 w-5xl
+        mt-5">
+        <p v-if="groups.length === 0"
+          class="
+            text-gray-400
+            dark:text-gray-100
+            text-sm
+            leading-tight
+            tracking-normal
+            ml-3
+            mr-3
+            mt-10
+            mb-6
+            text-center
+            text-justify-center
+            px-12
+            w-5xl
+          "> Your groups will display here after creating or joining them! </p>
+          </div>
         <groups-user-component />
       </div>
     </div>
