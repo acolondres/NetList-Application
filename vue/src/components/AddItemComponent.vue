@@ -81,6 +81,7 @@
           v-model="item.quantity"
           placeholder="Item Quantity"
           required
+          max="999999"
           autofocus
           type="number"
         />
