@@ -25,7 +25,12 @@
           <p class="text-base font-medium leading-6 text-gray-600">
             Ugur Tendurus
           </p>
-          <p class="text-base leading-6 mt-2 text-gray-800">Developer</p>
+          <p class="text-base leading-6 mt-2 text-gray-800">
+            Developer
+          </p>
+          <p class="text-base leading-6 mt-2 text-gray-800">
+            Frontend Lover
+          </p>
         </div>
       </div>
       <div
@@ -88,6 +93,7 @@
             Andy Colondres
           </p>
           <p class="text-base leading-6 mt-2 text-gray-800">Developer</p>
+          <p class="text-base leading-6 mt-2 text-gray-800">Image Implementer</p>
         </div>
       </div>
       <div class="lg:w-96 w-80">
@@ -99,6 +105,7 @@
         <div class="bg-white shadow-md rounded-md py-4 text-center">
           <p class="text-base font-medium leading-6 text-gray-600">Seth Post</p>
           <p class="text-base leading-6 mt-2 text-gray-800">Developer</p>
+          <p class="text-base leading-6 mt-2 text-gray-800">UX Field Researcher</p>
         </div>
       </div>
       <div class="lg:w-96 w-80">
@@ -112,6 +119,7 @@
             Zaki Ahmed
           </p>
           <p class="text-base leading-6 mt-2 text-gray-800">Developer</p>
+          <p class="text-base leading-6 mt-2 text-gray-800">Backend Support</p>
         </div>
       </div>
     </div>
