@@ -1,6 +1,6 @@
 <template>
   <body class="flex items-center justify-center py-8">
-    <div class="w-full max-w-2xl px-4">
+    <div class="w-full max-w-5xl px-4">
       <div
         class="border rounded-lg border pb-6 border-gray-200"
         v-if="groups.length != 0"
@@ -112,7 +112,7 @@
                         @click.self="deleteGroup(group.groupId)"
                     >
                       <p
-                        class="text-xs leading-3 text-red-700 cursor-pointer"
+                        class="text-xs font-semibold leading-3 text-red-700 cursor-pointer"
                         @click.self="deleteGroup(group.groupId)"
                       >
                         Leave Group

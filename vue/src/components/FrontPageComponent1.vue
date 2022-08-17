@@ -79,7 +79,7 @@
                   text-center
                 "
               >
-                <h2>Organized workflow</h2>
+                <h2>Groups</h2>
               </div>
               <div
                 class="
@@ -90,7 +90,11 @@
                 "
               >
                 <p>
-                  Workflow can help streamline and manage complex lists.
+                To get started, create or join a group. 
+                Easily invite others to your groups by sharing the group 
+                invite code with them. 
+                Don't want anyone else in your group?
+                 No problem! Groups of one are welcome on NetList.
                 </p>
               </div>
             </div>
@@ -140,7 +144,7 @@
                   text-center
                 "
               >
-                <h2>Flexibility</h2>
+                <h2>Lists</h2>
               </div>
               <div
                 class="
@@ -151,7 +155,10 @@
                 "
               >
                 <p>
-                  Work with others in groups to tackle lists together across multiple platforms.
+                  Once you're in a group, get listing! When creating a list, 
+                  choose a group to create it for. 
+                  All members of a group have access to the lists created 
+                  in that group, including the authority to edit list names and delete lists.
                 </p>
               </div>
             </div>
@@ -201,7 +208,7 @@
                   text-center
                 "
               >
-                <h2>User friendly</h2>
+                <h2>Items</h2>
               </div>
               <div
                 class="
@@ -212,7 +219,8 @@
                 "
               >
                 <p>
-                  Simple layout can guarantee successful adoption on new software.
+                Once a list is created, easily add items by clicking on the list and using the "Add Item" form.
+                After creation, items can be marked as "Done", deleted from the list, or edited by any user in the group.
                 </p>
               </div>
             </div>
@@ -262,7 +270,7 @@
                   text-center
                 "
               >
-                <h2>Well Organized</h2>
+                <h2>NetList</h2>
               </div>
               <div
                 class="
@@ -273,7 +281,9 @@
                 "
               >
                 <p>
-                  No more keeping track of multiple lists. From shopping to tasks, everything is kept at your fingertips.
+                  With NetList, easily keep track of all the different lists in your life.
+                  Whether it's a running household grocery list, your own personal to-do list,
+                  or even staying organized during the gift-getting season, NetList has you covered.
                 </p>
               </div>
             </div>
