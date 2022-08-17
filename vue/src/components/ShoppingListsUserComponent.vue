@@ -1,12 +1,12 @@
 <template>
   <body class="flex items-center justify-center py-8 mr-auto ml-auto">
-    <div class="flex flex-col md:mr-16">
+    <div class="flex flex-col">
       <label
         for="group"
         class="
           text-gray-800
           dark:text-gray-100
-          text-sm
+          text-base
           font-bold
           leading-tight
           tracking-normal
@@ -14,7 +14,7 @@
           ml-auto
           mr-auto
         "
-        >Select a Group to Display Its Lists:</label
+        >Select a group to display its lists:</label
       >
       <select
         name="group"
@@ -72,8 +72,8 @@
           ml-auto
           mr-auto"
           > <em>Click on a list to see its items.</em> </p>
-      <div class="w-full max-w-5xl px-4" v-if="selectedGroupId != 0">
-        <div class="border rounded-lg border pb-6 border-gray-200">
+      <div class="w-full max-w-7xl px-4" v-if="selectedGroupId != 0">
+        <div class="border rounded-lg border pb-6 border-gray-200 w-5xl">
           <p v-if="filterListsbyGroupId.length === 0"
           class="
             text-gray-400
@@ -86,6 +86,8 @@
             mt-12
             text-align-center
             text-justify-center
+            px-12
+            w-5xl
           "> Your lists will display here after creating them! </p>
           <div class="px-6 pt-6 overflow-x-auto ">
             <table class="w-full whitespace-nowrap ">

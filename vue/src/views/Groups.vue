@@ -125,7 +125,7 @@
               ml-auto
             "
           >
-            Invite Code</label
+            Invite Code:</label
           >
           <input
             id="groupKey"
@@ -153,7 +153,7 @@
             v-model="groups.groupKey"
             required
             autofocus
-            placeholder="Invite Code"
+            placeholder="Enter existing group's invite code"
           />
           <button
             type="submit"
