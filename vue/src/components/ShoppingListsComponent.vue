@@ -38,7 +38,7 @@
           v-model="lists.listName"
           required
           autofocus
-          maxlength="35"
+          maxlength="30"
           placeholder="New List Name"
         />
         <br />

@@ -132,14 +132,14 @@
                       >
                         <p
                           class="
-                            text-sm
+                            text-xs
                             font-semibold
                             leading-none
                             text-right text-green-800
                           "
                         >
                           
-                            Edit
+                            Edit List Name
                         </p>
                       </div>
                       </router-link
@@ -161,10 +161,10 @@
                       
                       >
                       
-                        <p class="text-xs leading-3 text-red-700 cursor-pointer px-7"
+                        <p class="text-xs font-semibold leading-3 text-red-700 cursor-pointer px-7"
                         @click.self="deleteList(list.listId)">
                           
-                            Delete
+                            Delete List
                         </p>
                       </div>
                       </button>

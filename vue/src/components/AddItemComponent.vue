@@ -123,7 +123,7 @@
           v-model="item.itemNote"
           placeholder="Item Note"
           required
-          maxlength="20"
+          maxlength="35"
           autofocus
           type="text"
         />
