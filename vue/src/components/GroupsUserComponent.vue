@@ -115,7 +115,7 @@
                         class="text-xs leading-3 text-red-700 cursor-pointer"
                         @click.self="deleteGroup(group.groupId)"
                       >
-                        Leave
+                        Leave Group
                       </p>
                     </div>
                   </div>

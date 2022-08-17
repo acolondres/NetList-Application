@@ -33,7 +33,7 @@
             Login to your account
           </p>
           <p class="text-sm mt-4 font-medium leading-none text-gray-500">
-            Dont have account?
+            Don't have an account?
             <router-link :to="{ name: 'register' }"
               ><span
                 tabindex="0"
