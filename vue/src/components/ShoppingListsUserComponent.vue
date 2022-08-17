@@ -149,8 +149,8 @@
                       </div>
                     </div>
                   </td>
-                  <td class="pl-16">
-                    <div>
+                  <td>
+                    <div class="w-5">
                       <router-link
                         :to="{
                           name: 'edit-list',
@@ -162,7 +162,7 @@
                             flex
                             items-center
                             justify-center
-                            px-2
+                            px-16
                             py-1
                             mt-2
                             bg-green-100
