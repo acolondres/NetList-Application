@@ -95,6 +95,7 @@
             class="
               hover:text-indigo-500
               cursor-pointer
+              mr-10
               h-full
               xl:flex
               flex
