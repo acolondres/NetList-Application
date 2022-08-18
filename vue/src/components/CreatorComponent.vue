@@ -63,20 +63,20 @@
           <br/>
           <br/>
           Ugur, a self-proclaimed <em>otaku</em>, 
-          has seen over 1,000 different anime shows and wanted a way to share his anime watchlist and keep it organized.
+          has seen over 1,000 different anime (subs only, of course) and wanted a way to organize and share his anime watchlist.
           <br/>
           <br/>
           Andy, a married man, needed to find a cure for his wife's Post-It note obsession.
           <br/>
           <br/>
-          Seth wanted an easier way to share Christmas lists and shopping easier.
+          Seth, a feline enthusiast, wanted a simpler solution to keeping track of his cat supplies.
           <br/>
           <br/>
-          Zaki.
+          Zaki, a youth sports coach, desperately needed a way to record each one of his player's Gatorade flavor preferences.
           <br/>
           <br/>
-          After discussing these problems with each other, the seed for NetList was sown. 
-          Now, users across the world can eat from the fruits of our labor!
+          The IntelliGents bemoaned these problems with each other, and the seed for NetList was sown. 
+          Now, users across the world can enjoy the fruits of our labor!
           <br/>
           <br/>
         </p>
