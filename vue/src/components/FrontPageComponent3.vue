@@ -35,13 +35,13 @@
           </ul>
         </div>
         <div class="text-sm text-color mb-10 f-f-l">
-          <p>© 2022 IntelliGents. All rights reserved</p>
+          <p>© 2022 IntelliGents. All rights reserved.</p>
         </div>
       </div>
       <div class="w-9/12 h-0.5 bg-gray-100 rounded-full"></div>
       <div class="flex justify-between items-center pt-12">
         <div class="mr-4">
-          <svg
+          <!-- <svg
             xmlns="http://www.w3.org/2000/svg"
             width="135"
             height="40"
@@ -155,7 +155,7 @@
                 <rect width="135" height="40" fill="white"></rect>
               </clipPath>
             </defs>
-          </svg>
+          </svg> -->
         </div>
         <div>
           <svg
