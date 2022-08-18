@@ -111,13 +111,23 @@
                 >
                   <td>
                     <!--Ultimate Hidden LigMaster-->
+
                     <div class="flex items-center justify-center">
+                      <router-link
+                              :to="{
+                                name: 'show-list-items',
+                                params: {
+                                  listId: list.listId,
+                                },
+                              }"
+                              class="font-semibold text-gray-800"
+                              >
                       <div class="rounded-sm p-1.5 w-20">
                         <img
                           src="https://img.icons8.com/clouds/344/checklist.png"
                         />
                       </div>
-                      <div class="pl-3">
+                      <div class="pl-3 w-full items-start justify-start flex flex-col">
                         <div
                           class="
                             flex
@@ -128,17 +138,12 @@
                             break-all
                           "
                         >
-                          <p class="font-semibold text-gray-800">
-                            <router-link
-                              :to="{
-                                name: 'show-list-items',
-                                params: {
-                                  listId: list.listId,
-                                },
-                              }"
-                              >{{ list.listName }}</router-link
-                            >
-                          </p>
+                          
+                            
+                              <!-- <p class="font-semibold text-gray-800"> -->
+                                {{ list.listName }}
+                          <!-- </p> -->
+                          
                           <p class="text-indigo-700 ml-3">
                             <!-- (Anything can come here) -->
                           </p>
@@ -155,6 +160,7 @@
                           <!-- //TODO IDEA: Group Desc? Maybe -->
                         </p>
                       </div>
+                      </router-link>
                       <div class="w-full items-end justify-end flex flex-col">
                         <router-link
                           :to="{

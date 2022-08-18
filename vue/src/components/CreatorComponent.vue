@@ -29,7 +29,7 @@
             Developer
           </p>
           <p class="text-base leading-6 mt-2 text-gray-800">
-            Frontend Lover
+            Front End Lover
           </p>
         </div>
       </div>
@@ -69,7 +69,7 @@
           Andy, a married man, needed to find a cure for his wife's Post-It note obsession.
           <br/>
           <br/>
-          Seth wanted a way to make sharing Christmas lists and shopping easier.
+          Seth wanted an easier way to share Christmas lists and shopping easier.
           <br/>
           <br/>
           Zaki.
@@ -119,7 +119,7 @@
             Zaki Ahmed
           </p>
           <p class="text-base leading-6 mt-2 text-gray-800">Developer</p>
-          <p class="text-base leading-6 mt-2 text-gray-800">Backend Support</p>
+          <p class="text-base leading-6 mt-2 text-gray-800">Back End Support</p>
         </div>
       </div>
     </div>
